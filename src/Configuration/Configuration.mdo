@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Configuration xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="5c154041-0ba5-4dcb-aac4-98f7da811a70">
+  <name>Вложения</name>
+  <synonym>
+    <key>ru</key>
+    <value>Вложения</value>
+  </synonym>
+  <containedObjects classId="9cd510cd-abfc-11d4-9434-004095e12fc7" objectId="19de35f5-fedd-45e8-9bb1-a19f30ff68f6"/>
+  <containedObjects classId="9fcd25a0-4822-11d4-9414-008048da11f9" objectId="9a4dc211-18f4-4975-93b8-108bec340a4f"/>
+  <containedObjects classId="e3687481-0a87-462c-a166-9f34594f9bba" objectId="9c990053-4cb6-44d8-a233-a6e12b6a9a86"/>
+  <containedObjects classId="9de14907-ec23-4a07-96f0-85521cb6b53b" objectId="d6268ad4-1adf-4124-85c2-3e755fef3c2e"/>
+  <containedObjects classId="51f2d5d8-ea4d-4064-8892-82951750031e" objectId="9b8acd51-17b0-4d9e-81f2-29b2aa308f95"/>
+  <containedObjects classId="e68182ea-4237-4383-967f-90c1e3370bc7" objectId="b41e9ae3-952e-4a52-9cf8-e4b04c7dfe8c"/>
+  <containedObjects classId="fb282519-d103-4dd3-bc12-cb271d631dfc" objectId="fd0b28d2-7622-41a7-aec8-15e7fbafc3c2"/>
+  <configurationExtensionCompatibilityMode>8.3.18</configurationExtensionCompatibilityMode>
+  <defaultRunMode>ManagedApplication</defaultRunMode>
+  <usePurposes>PersonalComputer</usePurposes>
+  <scriptVariant>Russian</scriptVariant>
+  <usedMobileApplicationFunctionalities>
+    <functionality>
+      <use>true</use>
+    </functionality>
+    <functionality>
+      <functionality>OSBackup</functionality>
+      <use>true</use>
+    </functionality>
+  </usedMobileApplicationFunctionalities>
+  <defaultLanguage>Language.Русский</defaultLanguage>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <objectAutonumerationMode>NotAutoFree</objectAutonumerationMode>
+  <modalityUseMode>DontUse</modalityUseMode>
+  <synchronousPlatformExtensionAndAddInCallUseMode>DontUse</synchronousPlatformExtensionAndAddInCallUseMode>
+  <compatibilityMode>8.3.18</compatibilityMode>
+  <languages uuid="6ce6c9c0-6bac-4ec7-8d45-d2e88fe312b3">
+    <name>Русский</name>
+    <synonym>
+      <key>ru</key>
+      <value>Русский</value>
+    </synonym>
+    <languageCode>ru</languageCode>
+  </languages>
+  <subsystems>Subsystem.Администрирование</subsystems>
+  <subsystems>Subsystem.Вложения</subsystems>
+  <commonPictures>CommonPicture.Администрирование</commonPictures>
+  <commonPictures>CommonPicture.Вложения</commonPictures>
+  <sessionParameters>SessionParameter.Контрагент</sessionParameters>
+  <sessionParameters>SessionParameter.КонтрагентИспользование</sessionParameters>
+  <sessionParameters>SessionParameter.ТекущийПользователь</sessionParameters>
+  <roles>Role.ПолныеПрава</roles>
+  <roles>Role.Пользователь</roles>
+  <commonModules>CommonModule.Общий</commonModules>
+  <commonAttributes>CommonAttribute.Контрагент</commonAttributes>
+  <constants>Constant.ХранениеФайлов</constants>
+  <catalogs>Catalog.КлючиСтрок</catalogs>
+  <catalogs>Catalog.Контрагенты</catalogs>
+  <catalogs>Catalog.Пользователи</catalogs>
+  <documents>Document.Вложение</documents>
+  <enums>Enum.ВидВложения</enums>
+  <enums>Enum.ЮридическоеФизическоеЛицо</enums>
+  <informationRegisters>InformationRegister.Файлы</informationRegisters>
+</mdclass:Configuration>

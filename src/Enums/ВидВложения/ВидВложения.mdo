@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="76df8e34-0451-41b6-8692-9ce4f695a2c4">
+  <producedTypes>
+    <refType typeId="ee8d4fee-b549-4633-b146-f262ff807445" valueTypeId="8af6491a-4806-4391-b91f-7c605c5cefe7"/>
+    <listType typeId="0029744e-4d76-447e-8d94-c8a23f378714" valueTypeId="0a8d7ad3-257c-4af5-a767-a511e6066351"/>
+    <managerType typeId="83ebff94-5665-4bd0-bfb9-2421323fcd75" valueTypeId="c3ec0709-f795-45f1-bb6e-4f1ee8cc616d"/>
+  </producedTypes>
+  <name>ВидВложения</name>
+  <synonym>
+    <key>ru</key>
+    <value>Вид вложения</value>
+  </synonym>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="4805607e-7af4-43bd-a897-31b611973966">
+    <name>НакладнаяСчет</name>
+    <synonym>
+      <key>ru</key>
+      <value>Накладная (счет)</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="a656d1b6-723b-488b-b7b4-72d1349eb6f7">
+    <name>СертификатПротокол</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сертификат (протокол)</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="0d78fd1d-58b6-4168-82dd-559ccee3b2d1">
+    <name>Прайс</name>
+    <synonym>
+      <key>ru</key>
+      <value>Прайс</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

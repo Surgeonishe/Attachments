@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="9604eb41-3e2f-4611-89a8-5879a0ff0625">
+  <producedTypes>
+    <objectType typeId="9d9d7631-dd01-491a-be40-a6d9babde540" valueTypeId="55aff9e3-95d7-482e-89c6-ff35f51d4d35"/>
+    <refType typeId="b08539aa-3875-4db3-8562-8f1714f436ee" valueTypeId="03f3a14a-3896-4fe1-ac40-688df4a0bc80"/>
+    <selectionType typeId="a42c6223-6a8f-40a9-8d01-e3964fbac352" valueTypeId="97792953-e2c5-494f-97a4-bb414cbbc95a"/>
+    <listType typeId="09b06edf-11a3-4e49-85bb-95716a07021f" valueTypeId="7b1044ab-44c5-41a6-a00c-3595860aa5e4"/>
+    <managerType typeId="0ff878d9-fcf7-463f-9477-75093cc76e4a" valueTypeId="bb82e450-8a07-4e77-8524-a6177a1c03fd"/>
+  </producedTypes>
+  <name>КлючиСтрок</name>
+  <synonym>
+    <key>ru</key>
+    <value>Ключи строк</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <objectPresentation>
+    <key>ru</key>
+    <value>Ключ строки</value>
+  </objectPresentation>
+  <listPresentation>
+    <key>ru</key>
+    <value>Ключи строк</value>
+  </listPresentation>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>4</codeLength>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+</mdclass:Catalog>

@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="c0916854-59c9-4e4a-a729-9243cfcae613">
+  <producedTypes>
+    <objectType typeId="6b85229e-5ddb-4703-ac18-355c7345cd00" valueTypeId="2b82725d-a167-4d4f-a164-0540f4d9a631"/>
+    <refType typeId="7ee2cecf-f656-443c-9124-bed1a07496b7" valueTypeId="c749281c-0f65-4749-88fb-6ad4f5d533c5"/>
+    <selectionType typeId="f5f34261-a74b-4de6-8942-68ba0c1609db" valueTypeId="f94a4618-f8f3-4914-b8cb-2b76a495e641"/>
+    <listType typeId="2cadc6de-7193-439d-b5b3-43f90004fa1a" valueTypeId="e2681b61-48e5-49eb-b1f8-adf232f221b5"/>
+    <managerType typeId="3c5e89f3-fc26-4783-b863-62cb4bfb9c9b" valueTypeId="c4e67ed9-d6cb-4da8-8e89-edb281103db5"/>
+  </producedTypes>
+  <name>Вложение</name>
+  <synonym>
+    <key>ru</key>
+    <value>Вложение</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Document.Вложение.StandardAttribute.Number</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <objectPresentation>
+    <key>ru</key>
+    <value>Вложение</value>
+  </objectPresentation>
+  <listPresentation>
+    <key>ru</key>
+    <value>Вложения</value>
+  </listPresentation>
+  <numberType>String</numberType>
+  <numberLength>9</numberLength>
+  <numberAllowedLength>Variable</numberAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultObjectForm>Document.Вложение.Form.Документ</defaultObjectForm>
+  <defaultListForm>Document.Вложение.Form.Список</defaultListForm>
+  <defaultChoiceForm>Document.Вложение.Form.Выбор</defaultChoiceForm>
+  <postInPrivilegedMode>true</postInPrivilegedMode>
+  <unpostInPrivilegedMode>true</unpostInPrivilegedMode>
+  <attributes uuid="4f3644fe-b138-4507-a651-3357dd121a80">
+    <name>Автор</name>
+    <synonym>
+      <key>ru</key>
+      <value>Автор</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Пользователи</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="c440bc12-0778-4758-8a4d-8a01c3455262">
+    <name>ВидВложения</name>
+    <synonym>
+      <key>ru</key>
+      <value>Вид</value>
+    </synonym>
+    <type>
+      <types>EnumRef.ВидВложения</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="736e75b7-11b1-41de-8df5-3bea5e66c1d4">
+    <name>Комментарий</name>
+    <synonym>
+      <key>ru</key>
+      <value>Комментарий</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <forms uuid="71f756dd-24c3-4bb6-87ef-9957e79aff03">
+    <name>Документ</name>
+    <synonym>
+      <key>ru</key>
+      <value>Документ</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="5fed9411-cbc2-4828-bf33-26cee014533a">
+    <name>Список</name>
+    <synonym>
+      <key>ru</key>
+      <value>Список</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="09d43b2b-a899-41a0-9b68-99cd448e5cad">
+    <name>Выбор</name>
+    <synonym>
+      <key>ru</key>
+      <value>Выбор</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <tabularSections uuid="b88c3bbf-315c-4ab6-8e58-8d03d3dfd2c0">
+    <producedTypes>
+      <objectType typeId="a7d5c88d-ef09-4362-97a0-17d29593c058" valueTypeId="9c71b5e6-ebae-4ff1-82ca-340afc27c15e"/>
+      <rowType typeId="e94f1668-cb34-4323-a72f-22c9f2c1146f" valueTypeId="48d4f8b8-463a-4040-a557-ab8017f833cb"/>
+    </producedTypes>
+    <name>Файлы</name>
+    <synonym>
+      <key>ru</key>
+      <value>Файлы</value>
+    </synonym>
+    <attributes uuid="37deea7a-7872-4f48-8981-5bf089724a25">
+      <name>Описание</name>
+      <synonym>
+        <key>ru</key>
+        <value>Описание</value>
+      </synonym>
+      <type>
+        <types>String</types>
+        <stringQualifiers>
+          <length>150</length>
+        </stringQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="85b9c104-3f3d-453e-815a-ea01c479b1e8">
+      <name>КлючСтроки</name>
+      <synonym>
+        <key>ru</key>
+        <value>Ключ строки</value>
+      </synonym>
+      <type>
+        <types>String</types>
+        <stringQualifiers>
+          <length>10</length>
+        </stringQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+  </tabularSections>
+  <commands uuid="157e7955-d677-4495-b266-bd6b949b71e5">
+    <name>ОткрытьНакладныеСчета</name>
+    <synonym>
+      <key>ru</key>
+      <value>Накладные (счета)</value>
+    </synonym>
+    <group>NavigationPanelOrdinary</group>
+    <representation>Auto</representation>
+  </commands>
+  <commands uuid="b3663d2c-deba-4dc7-ad93-c9483de46e56">
+    <name>ОткрытьСертификатыПротоколы</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сертификаты (протоколы)</value>
+    </synonym>
+    <group>NavigationPanelOrdinary</group>
+    <representation>Auto</representation>
+  </commands>
+  <commands uuid="4eecec36-db6f-4883-9021-d3e50544d1a7">
+    <name>ОткрытьПрайсы</name>
+    <synonym>
+      <key>ru</key>
+      <value>Прайсы</value>
+    </synonym>
+    <group>NavigationPanelOrdinary</group>
+    <representation>Auto</representation>
+  </commands>
+</mdclass:Document>

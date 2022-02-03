@@ -48,7 +48,8 @@
   <sessionParameters>SessionParameter.ТекущийПользователь</sessionParameters>
   <roles>Role.ПолныеПрава</roles>
   <roles>Role.Пользователь</roles>
-  <commonModules>CommonModule.Общий</commonModules>
+  <commonModules>CommonModule.КлиентСервер</commonModules>
+  <commonModules>CommonModule.РаботаСФайлами</commonModules>
   <commonAttributes>CommonAttribute.Контрагент</commonAttributes>
   <constants>Constant.ХранениеФайлов</constants>
   <catalogs>Catalog.КлючиСтрок</catalogs>

@@ -391,6 +391,10 @@
             <event>OnStartEdit</event>
             <name>ФайлыПриНачалеРедактирования</name>
           </handlers>
+          <handlers>
+            <event>OnActivateRow</event>
+            <name>ФайлыПриАктивизацииСтроки</name>
+          </handlers>
           <searchStringAddition>
             <visible>true</visible>
             <enabled>true</enabled>
@@ -596,6 +600,7 @@
             <items xsi:type="form:FormField">
               <name>Масштаб</name>
               <id>70</id>
+              <visible>true</visible>
               <enabled>true</enabled>
               <userVisible>
                 <common>true</common>
@@ -644,14 +649,13 @@
                 <height>2</height>
                 <autoMaxHeight>true</autoMaxHeight>
                 <horizontalStretch>true</horizontalStretch>
-                <maxValue>500</maxValue>
+                <maxValue>100</maxValue>
                 <step>50</step>
                 <largeStep>100</largeStep>
                 <markingStep>50</markingStep>
                 <markingAppearance>BottomRight</markingAppearance>
               </extInfo>
             </items>
-            <visible>true</visible>
             <enabled>true</enabled>
             <userVisible>
               <common>true</common>
@@ -1289,60 +1293,6 @@
     </edit>
   </attributes>
   <attributes>
-    <name>ШаблонImage</name>
-    <title>
-      <key>ru</key>
-      <value>Шаблон image</value>
-    </title>
-    <id>6</id>
-    <valueType>
-      <types>String</types>
-      <stringQualifiers/>
-    </valueType>
-    <view>
-      <common>true</common>
-    </view>
-    <edit>
-      <common>true</common>
-    </edit>
-  </attributes>
-  <attributes>
-    <name>ШаблонPDF</name>
-    <title>
-      <key>ru</key>
-      <value>Шаблон PDF</value>
-    </title>
-    <id>7</id>
-    <valueType>
-      <types>String</types>
-      <stringQualifiers/>
-    </valueType>
-    <view>
-      <common>true</common>
-    </view>
-    <edit>
-      <common>true</common>
-    </edit>
-  </attributes>
-  <attributes>
-    <name>ШаблонТекст</name>
-    <title>
-      <key>ru</key>
-      <value>Шаблон текст</value>
-    </title>
-    <id>8</id>
-    <valueType>
-      <types>String</types>
-      <stringQualifiers/>
-    </valueType>
-    <view>
-      <common>true</common>
-    </view>
-    <edit>
-      <common>true</common>
-    </edit>
-  </attributes>
-  <attributes>
     <name>ХранениеФайлов</name>
     <title>
       <key>ru</key>
@@ -1430,6 +1380,26 @@
     </action>
     <representation>TextPicture</representation>
     <currentRowUse>DontUse</currentRowUse>
+  </formCommands>
+  <formCommands>
+    <name>ПечатьHTML</name>
+    <title>
+      <key>ru</key>
+      <value>Печать</value>
+    </title>
+    <id>4</id>
+    <toolTip>
+      <key>ru</key>
+      <value>Печать</value>
+    </toolTip>
+    <use>
+      <common>true</common>
+    </use>
+    <picture xsi:type="core:PictureRef">
+      <picture>StdPicture.Print</picture>
+    </picture>
+    <representation>TextPicture</representation>
+    <currentRowUse>Auto</currentRowUse>
   </formCommands>
   <commandInterface>
     <navigationPanel/>

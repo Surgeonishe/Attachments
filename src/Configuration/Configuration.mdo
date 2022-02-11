@@ -58,5 +58,6 @@
   <documents>Document.Вложение</documents>
   <enums>Enum.ВидВложения</enums>
   <enums>Enum.ЮридическоеФизическоеЛицо</enums>
+  <dataProcessors>DataProcessor.DocViewer</dataProcessors>
   <informationRegisters>InformationRegister.Файлы</informationRegisters>
 </mdclass:Configuration>

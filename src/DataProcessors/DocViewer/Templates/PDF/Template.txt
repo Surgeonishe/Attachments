@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale = 1.0, maximum-scale = 1.0, user-scalable=no">
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/pdf.js/2.4.456/pdf.min.js"></script>
+		<canvas id="the-canvas"></canvas>
+		<script>
+			var currPage = 1; //Pages are 1-based not 0-based
+			var numPages = 0;
+			var thePDF = null;
+			pdfjsLib.GlobalWorkerOptions.workerSrc = "https://cdnjs.cloudflare.com/ajax/libs/pdf.js/2.4.456/pdf.worker.min.js";
+			var loadingTask = pdfjsLib.getDocument({data: atob(`#DATA_FILE#`)});
+			loadingTask.promise.then(function(pdf) {
+			     thePDF = pdf;
+			     numPages = pdf.numPages;
+			     pdf.getPage(1).then(handlePages);                      
+			     function handlePages(page) { 
+			        var scale = 1.5;
+			        var viewport = page.getViewport({scale: scale});
+			        var canvas = document.createElement( "canvas" );
+			        canvas.style.display = "block";
+					var context = canvas.getContext('2d');
+			        canvas.height = viewport.height;
+			        canvas.width = viewport.width;
+			        var renderContext = {
+			              canvasContext: context,
+			              viewport: viewport
+			        };
+			        var renderTask = page.render(renderContext);
+			        document.body.appendChild( canvas );
+			        currPage++;
+			        if ( thePDF !== null && currPage <= numPages )
+			        { thePDF.getPage( currPage ).then( handlePages );}
+			       };
+			});
+		</script>
+	</body>
+</html>

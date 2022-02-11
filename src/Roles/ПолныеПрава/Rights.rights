@@ -27,20 +27,6 @@
 		</right>
 	</object>
 	<object>
-		<name>Document.Вложение.Command.ОткрытьНакладныеСчета</name>
-		<right>
-			<name>View</name>
-			<value>false</value>
-		</right>
-	</object>
-	<object>
-		<name>Document.Вложение.Command.ОткрытьПрайсы</name>
-		<right>
-			<name>View</name>
-			<value>false</value>
-		</right>
-	</object>
-	<object>
 		<name>Catalog.КлючиСтрок</name>
 		<right>
 			<name>Delete</name>
@@ -60,13 +46,6 @@
 		</right>
 		<right>
 			<name>InteractiveDeleteMarkedPredefinedData</name>
-			<value>false</value>
-		</right>
-	</object>
-	<object>
-		<name>Document.Вложение.Command.ОткрытьСертификатыПротоколы</name>
-		<right>
-			<name>View</name>
 			<value>false</value>
 		</right>
 	</object>

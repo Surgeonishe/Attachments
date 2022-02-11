@@ -11,6 +11,7 @@
     <picture>CommonPicture.Администрирование</picture>
   </picture>
   <content>InformationRegister.Файлы</content>
+  <content>DataProcessor.DocViewer</content>
   <subsystems>Документы</subsystems>
   <subsystems>Справочники</subsystems>
 </mdclass:Subsystem>

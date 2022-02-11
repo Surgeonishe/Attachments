@@ -1,0 +1,14 @@
+<html>
+<head>
+<meta http-equiv="x-ua-compatible" content="IE=11">
+<script type="text/javascript">
+    function resize () {
+        var frame = document.getElementById("preview");
+        frame.style.height = ( window.innerHeight + "px" );
+    }
+</script>
+</head>
+<body style="padding: 0px; margin: 0px;overflow-x: hidden;overflow-y: hidden" onload="resize ()" onresize="resize ()">
+<iframe id="preview" name="preview" style="height:100%;width:100%" src="https://view.officeapps.live.com/op/view.aspx?src=#DATA_FILE#"></iframe>
+</body>
+</html>

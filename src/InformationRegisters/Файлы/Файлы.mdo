@@ -117,16 +117,14 @@
     <type>
       <types>String</types>
       <stringQualifiers>
-        <length>36</length>
+        <length>255</length>
       </stringQualifiers>
     </type>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
-    <fillValue xsi:type="core:StringValue">
-      <value></value>
-    </fillValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
   </resources>
   <resources uuid="acea04d3-2ec7-4624-8e60-4f08207ff92b">
     <name>ИмяФайла</name>

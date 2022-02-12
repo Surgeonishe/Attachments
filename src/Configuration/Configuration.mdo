@@ -43,7 +43,10 @@
   <subsystems>Subsystem.Вложения</subsystems>
   <commonPictures>CommonPicture.Администрирование</commonPictures>
   <commonPictures>CommonPicture.Вложения</commonPictures>
+  <commonPictures>CommonPicture.Накладная</commonPictures>
+  <commonPictures>CommonPicture.Прайс</commonPictures>
   <commonPictures>CommonPicture.РасширенияФайлов</commonPictures>
+  <commonPictures>CommonPicture.Сертификат</commonPictures>
   <commonPictures>CommonPicture.Файлы</commonPictures>
   <sessionParameters>SessionParameter.Контрагент</sessionParameters>
   <sessionParameters>SessionParameter.КонтрагентИспользование</sessionParameters>

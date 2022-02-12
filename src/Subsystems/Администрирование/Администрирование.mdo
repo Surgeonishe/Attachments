@@ -12,6 +12,7 @@
   </picture>
   <content>InformationRegister.Файлы</content>
   <content>DataProcessor.DocViewer</content>
+  <content>DataProcessor.РабочийСтол</content>
   <subsystems>Документы</subsystems>
   <subsystems>Справочники</subsystems>
 </mdclass:Subsystem>

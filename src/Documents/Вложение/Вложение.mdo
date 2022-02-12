@@ -83,6 +83,28 @@
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
   </attributes>
+  <attributes uuid="4dfab203-ec40-4322-a9b1-3fc02a3e3eb5">
+    <name>КоличествоФайлов</name>
+    <synonym>
+      <key>ru</key>
+      <value>Файлов</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>10</precision>
+      </numberQualifiers>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Файлов</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
   <forms uuid="71f756dd-24c3-4bb6-87ef-9957e79aff03">
     <name>Документ</name>
     <synonym>
@@ -121,10 +143,10 @@
       <value>Файлы</value>
     </synonym>
     <attributes uuid="37deea7a-7872-4f48-8981-5bf089724a25">
-      <name>Описание</name>
+      <name>ИмяФайла</name>
       <synonym>
         <key>ru</key>
-        <value>Описание</value>
+        <value>Имя файла</value>
       </synonym>
       <type>
         <types>String</types>

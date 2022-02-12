@@ -43,6 +43,8 @@
   <subsystems>Subsystem.Вложения</subsystems>
   <commonPictures>CommonPicture.Администрирование</commonPictures>
   <commonPictures>CommonPicture.Вложения</commonPictures>
+  <commonPictures>CommonPicture.РасширенияФайлов</commonPictures>
+  <commonPictures>CommonPicture.Файлы</commonPictures>
   <sessionParameters>SessionParameter.Контрагент</sessionParameters>
   <sessionParameters>SessionParameter.КонтрагентИспользование</sessionParameters>
   <sessionParameters>SessionParameter.ТекущийПользователь</sessionParameters>
@@ -59,5 +61,6 @@
   <enums>Enum.ВидВложения</enums>
   <enums>Enum.ЮридическоеФизическоеЛицо</enums>
   <dataProcessors>DataProcessor.DocViewer</dataProcessors>
+  <dataProcessors>DataProcessor.РабочийСтол</dataProcessors>
   <informationRegisters>InformationRegister.Файлы</informationRegisters>
 </mdclass:Configuration>

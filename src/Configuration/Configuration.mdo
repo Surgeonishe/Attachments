@@ -26,6 +26,8 @@
     </functionality>
   </usedMobileApplicationFunctionalities>
   <defaultLanguage>Language.Русский</defaultLanguage>
+  <logo/>
+  <splash/>
   <dataLockControlMode>Managed</dataLockControlMode>
   <objectAutonumerationMode>NotAutoFree</objectAutonumerationMode>
   <modalityUseMode>DontUse</modalityUseMode>
@@ -43,6 +45,7 @@
   <subsystems>Subsystem.Вложения</subsystems>
   <commonPictures>CommonPicture.Администрирование</commonPictures>
   <commonPictures>CommonPicture.Вложения</commonPictures>
+  <commonPictures>CommonPicture.Выход</commonPictures>
   <commonPictures>CommonPicture.Накладная</commonPictures>
   <commonPictures>CommonPicture.Прайс</commonPictures>
   <commonPictures>CommonPicture.РасширенияФайлов</commonPictures>
@@ -53,8 +56,8 @@
   <sessionParameters>SessionParameter.ТекущийПользователь</sessionParameters>
   <roles>Role.ПолныеПрава</roles>
   <roles>Role.Пользователь</roles>
-  <commonModules>CommonModule.КлиентСервер</commonModules>
   <commonModules>CommonModule.РаботаСФайлами</commonModules>
+  <commonModules>CommonModule.Серверный</commonModules>
   <commonAttributes>CommonAttribute.Контрагент</commonAttributes>
   <constants>Constant.ХранениеФайлов</constants>
   <catalogs>Catalog.КлючиСтрок</catalogs>

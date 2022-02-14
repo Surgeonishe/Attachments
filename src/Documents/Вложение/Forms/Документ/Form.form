@@ -328,10 +328,6 @@
               <horizontalAlign>Left</horizontalAlign>
             </autoCommandBar>
             <handlers>
-              <event>OnStartEdit</event>
-              <name>ФайлыПриНачалеРедактирования</name>
-            </handlers>
-            <handlers>
               <event>OnActivateRow</event>
               <name>ФайлыПриАктивизацииСтроки</name>
             </handlers>
@@ -495,6 +491,12 @@
             <enableStartDrag>true</enableStartDrag>
             <enableDrag>true</enableDrag>
             <fileDragMode>AsFileRef</fileDragMode>
+            <rowPictureDataPath xsi:type="form:DataPath">
+              <segments>Объект.Файлы.ИндексКартинки</segments>
+            </rowPictureDataPath>
+            <rowsPicture xsi:type="core:PictureRef">
+              <picture>CommonPicture.РасширенияФайлов</picture>
+            </rowsPicture>
             <searchStringLocation>None</searchStringLocation>
             <searchControlLocation>None</searchControlLocation>
           </items>
@@ -1202,14 +1204,14 @@
           <horizontalAlign>Left</horizontalAlign>
         </extInfo>
       </extendedTooltip>
-      <commandName>Form.StandardCommand.Write</commandName>
+      <commandName>Form.StandardCommand.PostAndClose</commandName>
       <representation>PictureAndText</representation>
       <defaultButton>true</defaultButton>
       <autoMaxWidth>true</autoMaxWidth>
       <autoMaxHeight>true</autoMaxHeight>
       <placementArea>UserCmds</placementArea>
       <picture xsi:type="core:PictureRef">
-        <picture>StdPicture.Write</picture>
+        <picture>StdPicture.SaveFile</picture>
       </picture>
       <representationInContextMenu>Auto</representationInContextMenu>
     </items>
@@ -1282,6 +1284,31 @@
     </notDefaultUseAlwaysAttributes>
     <main>true</main>
     <savedData>true</savedData>
+    <additionalColumns>
+      <tablePath xsi:type="form:DataPath">
+        <segments>Объект.Файлы</segments>
+      </tablePath>
+      <columns>
+        <name>ИндексКартинки</name>
+        <title>
+          <key>ru</key>
+          <value>Индекс картинки</value>
+        </title>
+        <id>10</id>
+        <valueType>
+          <types>Number</types>
+          <numberQualifiers>
+            <precision>3</precision>
+          </numberQualifiers>
+        </valueType>
+        <view>
+          <common>true</common>
+        </view>
+        <edit>
+          <common>true</common>
+        </edit>
+      </columns>
+    </additionalColumns>
   </attributes>
   <attributes>
     <name>HTMLСтрока</name>

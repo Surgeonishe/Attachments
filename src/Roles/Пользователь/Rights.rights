@@ -276,4 +276,15 @@
 			<value>true</value>
 		</right>
 	</object>
+	<object>
+		<name>DataProcessor.РабочийСтол</name>
+		<right>
+			<name>View</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>Use</name>
+			<value>true</value>
+		</right>
+	</object>
 </Rights>

@@ -10,5 +10,6 @@
   <content>Catalog.КлючиСтрок</content>
   <content>Catalog.Контрагенты</content>
   <content>Catalog.Пользователи</content>
+  <content>InformationRegister.Файлы</content>
   <parentSubsystem>Subsystem.Администрирование</parentSubsystem>
 </mdclass:Subsystem>

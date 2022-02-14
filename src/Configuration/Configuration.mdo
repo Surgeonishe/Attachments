@@ -59,6 +59,7 @@
   <commonModules>CommonModule.РаботаСФайлами</commonModules>
   <commonModules>CommonModule.Серверный</commonModules>
   <commonAttributes>CommonAttribute.Контрагент</commonAttributes>
+  <constants>Constant.АдресПубликацииИБ</constants>
   <constants>Constant.ХранениеФайлов</constants>
   <catalogs>Catalog.КлючиСтрок</catalogs>
   <catalogs>Catalog.Контрагенты</catalogs>

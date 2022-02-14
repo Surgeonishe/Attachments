@@ -29,7 +29,7 @@
   </listPresentation>
   <levelCount>2</levelCount>
   <foldersOnTop>true</foldersOnTop>
-  <codeLength>3</codeLength>
+  <codeLength>9</codeLength>
   <descriptionLength>100</descriptionLength>
   <codeType>String</codeType>
   <codeAllowedLength>Variable</codeAllowedLength>
@@ -40,6 +40,7 @@
   <choiceMode>BothWays</choiceMode>
   <defaultObjectForm>Catalog.Контрагенты.Form.Элемент</defaultObjectForm>
   <defaultListForm>Catalog.Контрагенты.Form.Список</defaultListForm>
+  <defaultChoiceForm>Catalog.Контрагенты.Form.Выбор</defaultChoiceForm>
   <attributes uuid="94cc7a6d-c06e-4c28-9560-a5de6245d011">
     <name>КодПоЕДРПОУ</name>
     <synonym>
@@ -95,6 +96,33 @@
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
   </attributes>
+  <attributes uuid="bd7fd52f-2116-46e1-8492-6318aadfac51">
+    <name>НомерПоПорядку</name>
+    <synonym>
+      <key>ru</key>
+      <value>Код</value>
+    </synonym>
+    <comment>В этом реквизите будет храниться привычный код.</comment>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>9</precision>
+      </numberQualifiers>
+    </type>
+    <format>
+      <key>ru</key>
+      <value>ЧЦ=9; ЧВН=; ЧГ=0</value>
+    </format>
+    <editFormat>
+      <key>ru</key>
+      <value>ЧЦ=9; ЧВН=; ЧГ=0</value>
+    </editFormat>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
   <forms uuid="55b63ffa-6072-4bac-9718-4e52da895b8c">
     <name>Элемент</name>
     <synonym>
@@ -109,6 +137,15 @@
     <synonym>
       <key>ru</key>
       <value>Список</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="1d5b1396-df07-4540-b1d0-8d428283f3f5">
+    <name>Выбор</name>
+    <synonym>
+      <key>ru</key>
+      <value>Выбор</value>
     </synonym>
     <usePurposes>PersonalComputer</usePurposes>
     <usePurposes>MobileDevice</usePurposes>

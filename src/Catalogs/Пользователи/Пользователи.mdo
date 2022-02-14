@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<mdclass:Catalog xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="113fffbd-d2d1-4563-95d3-beb2679a7b72">
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="113fffbd-d2d1-4563-95d3-beb2679a7b72">
   <producedTypes>
     <objectType typeId="2d19ced3-250e-41f0-b69b-57b0055b6975" valueTypeId="ba281a8c-3f6d-47cd-a6ac-ceacb0a81f3c"/>
     <refType typeId="bb19d65b-c25a-4be2-b7a3-f90eb80d0efd" valueTypeId="fc11e7c2-06f7-471d-8ad0-fc93ffe28398"/>
@@ -38,4 +38,123 @@
   <defaultPresentation>AsDescription</defaultPresentation>
   <editType>InDialog</editType>
   <choiceMode>BothWays</choiceMode>
+  <defaultObjectForm>Catalog.Пользователи.Form.Элемент</defaultObjectForm>
+  <defaultListForm>Catalog.Пользователи.Form.Список</defaultListForm>
+  <defaultChoiceForm>Catalog.Пользователи.Form.Выбор</defaultChoiceForm>
+  <attributes uuid="c6b1bb4c-7485-44a6-8a6f-ab22b72d8017">
+    <name>ИдентификаторПользователяИБ</name>
+    <synonym>
+      <key>ru</key>
+      <value>Идентификатор пользователя ИБ</value>
+    </synonym>
+    <type>
+      <types>UUID</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="c285fd09-027e-4b3c-9867-8640d6f94ba0">
+    <name>Контрагент</name>
+    <synonym>
+      <key>ru</key>
+      <value>Контрагент</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Контрагенты</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="78f6edf4-2830-4d68-b6a6-dbbd3e515fc9">
+    <name>Пароль</name>
+    <synonym>
+      <key>ru</key>
+      <value>Пароль</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>25</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <tabularSections uuid="f0737480-5358-4116-97ca-e2963f2b10f5">
+    <producedTypes>
+      <objectType typeId="96841ae0-d3fc-4b41-bbda-1ba11eea506e" valueTypeId="8ec5c26f-8a6f-40a0-9325-aa39c5db79d7"/>
+      <rowType typeId="0e5ac34c-9d42-42c8-9d03-77bfbff63501" valueTypeId="15516c50-b36b-4967-be86-d37dbaa165f1"/>
+    </producedTypes>
+    <name>Роли</name>
+    <synonym>
+      <key>ru</key>
+      <value>Роли</value>
+    </synonym>
+    <attributes uuid="e59d4546-7f68-433a-b2ff-9968638183c9">
+      <name>Роль</name>
+      <synonym>
+        <key>ru</key>
+        <value>Роль</value>
+      </synonym>
+      <type>
+        <types>String</types>
+        <stringQualifiers>
+          <length>50</length>
+        </stringQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="a5395755-5965-408b-8711-ea80644f7949">
+      <name>Использование</name>
+      <synonym>
+        <key>ru</key>
+        <value>Использование</value>
+      </synonym>
+      <type>
+        <types>Boolean</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+  </tabularSections>
+  <forms uuid="5875c893-9063-47b9-b0da-1a38de989bef">
+    <name>Элемент</name>
+    <synonym>
+      <key>ru</key>
+      <value>Элемент</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="69113ed0-d50b-4257-b9fb-252427e1cec5">
+    <name>Список</name>
+    <synonym>
+      <key>ru</key>
+      <value>Список</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="c7701822-b65c-426d-875a-cfea6e69cd08">
+    <name>Выбор</name>
+    <synonym>
+      <key>ru</key>
+      <value>Выбор</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
 </mdclass:Catalog>

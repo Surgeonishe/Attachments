@@ -88,6 +88,24 @@
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
   </attributes>
+  <attributes uuid="9b076cb9-e853-40d4-94af-ca0f42b202d2">
+    <name>НаименованиеПолное</name>
+    <synonym>
+      <key>ru</key>
+      <value>Наименование (полное)</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>150</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
   <tabularSections uuid="f0737480-5358-4116-97ca-e2963f2b10f5">
     <producedTypes>
       <objectType typeId="96841ae0-d3fc-4b41-bbda-1ba11eea506e" valueTypeId="8ec5c26f-8a6f-40a0-9325-aa39c5db79d7"/>

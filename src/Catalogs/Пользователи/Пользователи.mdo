@@ -70,24 +70,6 @@
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
   </attributes>
-  <attributes uuid="78f6edf4-2830-4d68-b6a6-dbbd3e515fc9">
-    <name>Пароль</name>
-    <synonym>
-      <key>ru</key>
-      <value>Пароль</value>
-    </synonym>
-    <type>
-      <types>String</types>
-      <stringQualifiers>
-        <length>25</length>
-      </stringQualifiers>
-    </type>
-    <minValue xsi:type="core:UndefinedValue"/>
-    <maxValue xsi:type="core:UndefinedValue"/>
-    <fillValue xsi:type="core:UndefinedValue"/>
-    <fullTextSearch>Use</fullTextSearch>
-    <dataHistory>Use</dataHistory>
-  </attributes>
   <attributes uuid="9b076cb9-e853-40d4-94af-ca0f42b202d2">
     <name>НаименованиеПолное</name>
     <synonym>
@@ -106,48 +88,6 @@
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
   </attributes>
-  <tabularSections uuid="f0737480-5358-4116-97ca-e2963f2b10f5">
-    <producedTypes>
-      <objectType typeId="96841ae0-d3fc-4b41-bbda-1ba11eea506e" valueTypeId="8ec5c26f-8a6f-40a0-9325-aa39c5db79d7"/>
-      <rowType typeId="0e5ac34c-9d42-42c8-9d03-77bfbff63501" valueTypeId="15516c50-b36b-4967-be86-d37dbaa165f1"/>
-    </producedTypes>
-    <name>Роли</name>
-    <synonym>
-      <key>ru</key>
-      <value>Роли</value>
-    </synonym>
-    <attributes uuid="e59d4546-7f68-433a-b2ff-9968638183c9">
-      <name>Роль</name>
-      <synonym>
-        <key>ru</key>
-        <value>Роль</value>
-      </synonym>
-      <type>
-        <types>String</types>
-        <stringQualifiers>
-          <length>50</length>
-        </stringQualifiers>
-      </type>
-      <minValue xsi:type="core:UndefinedValue"/>
-      <maxValue xsi:type="core:UndefinedValue"/>
-      <dataHistory>Use</dataHistory>
-      <fullTextSearch>Use</fullTextSearch>
-    </attributes>
-    <attributes uuid="a5395755-5965-408b-8711-ea80644f7949">
-      <name>Использование</name>
-      <synonym>
-        <key>ru</key>
-        <value>Использование</value>
-      </synonym>
-      <type>
-        <types>Boolean</types>
-      </type>
-      <minValue xsi:type="core:UndefinedValue"/>
-      <maxValue xsi:type="core:UndefinedValue"/>
-      <dataHistory>Use</dataHistory>
-      <fullTextSearch>Use</fullTextSearch>
-    </attributes>
-  </tabularSections>
   <forms uuid="5875c893-9063-47b9-b0da-1a38de989bef">
     <name>Элемент</name>
     <synonym>

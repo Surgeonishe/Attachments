@@ -58,7 +58,7 @@
 		</right>
 	</object>
 	<object>
-		<name>Configuration.Вложения</name>
+		<name>Configuration.ДокументоборотКонтрагентов</name>
 		<right>
 			<name>ThinClient</name>
 			<value>true</value>
@@ -93,6 +93,17 @@
 		</right>
 		<right>
 			<name>SaveUserData</name>
+			<value>true</value>
+		</right>
+	</object>
+	<object>
+		<name>DataProcessor.РабочийСтол</name>
+		<right>
+			<name>Use</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>View</name>
 			<value>true</value>
 		</right>
 	</object>
@@ -251,6 +262,28 @@
 		</right>
 	</object>
 	<object>
+		<name>Catalog.Пользователи.Attribute.Контрагент</name>
+		<right>
+			<name>View</name>
+			<value>false</value>
+		</right>
+		<right>
+			<name>Edit</name>
+			<value>false</value>
+		</right>
+	</object>
+	<object>
+		<name>Catalog.Пользователи.Attribute.ИдентификаторПользователяИБ</name>
+		<right>
+			<name>View</name>
+			<value>false</value>
+		</right>
+		<right>
+			<name>Edit</name>
+			<value>false</value>
+		</right>
+	</object>
+	<object>
 		<name>Catalog.Контрагенты</name>
 		<right>
 			<name>Read</name>
@@ -274,83 +307,6 @@
 		<right>
 			<name>Set</name>
 			<value>true</value>
-		</right>
-	</object>
-	<object>
-		<name>DataProcessor.РабочийСтол</name>
-		<right>
-			<name>View</name>
-			<value>true</value>
-		</right>
-		<right>
-			<name>Use</name>
-			<value>true</value>
-		</right>
-	</object>
-	<object>
-		<name>Catalog.Пользователи.Attribute.Контрагент</name>
-		<right>
-			<name>Edit</name>
-			<value>false</value>
-		</right>
-		<right>
-			<name>View</name>
-			<value>false</value>
-		</right>
-	</object>
-	<object>
-		<name>Catalog.Пользователи.Attribute.ИдентификаторПользователяИБ</name>
-		<right>
-			<name>Edit</name>
-			<value>false</value>
-		</right>
-		<right>
-			<name>View</name>
-			<value>false</value>
-		</right>
-	</object>
-	<object>
-		<name>Catalog.Пользователи.Attribute.Пароль</name>
-		<right>
-			<name>Edit</name>
-			<value>false</value>
-		</right>
-		<right>
-			<name>View</name>
-			<value>false</value>
-		</right>
-	</object>
-	<object>
-		<name>Catalog.Пользователи.TabularSection.Роли</name>
-		<right>
-			<name>Edit</name>
-			<value>false</value>
-		</right>
-		<right>
-			<name>View</name>
-			<value>false</value>
-		</right>
-	</object>
-	<object>
-		<name>Catalog.Пользователи.TabularSection.Роли.Attribute.Роль</name>
-		<right>
-			<name>Edit</name>
-			<value>false</value>
-		</right>
-		<right>
-			<name>View</name>
-			<value>false</value>
-		</right>
-	</object>
-	<object>
-		<name>Catalog.Пользователи.TabularSection.Роли.Attribute.Использование</name>
-		<right>
-			<name>Edit</name>
-			<value>false</value>
-		</right>
-		<right>
-			<name>View</name>
-			<value>false</value>
 		</right>
 	</object>
 </Rights>

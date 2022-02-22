@@ -146,24 +146,24 @@
               <segments>Объект.Файлы</segments>
             </dataPath>
             <titleLocation>None</titleLocation>
-            <excludedCommands>EndEdit</excludedCommands>
-            <excludedCommands>SelectAll</excludedCommands>
-            <excludedCommands>ShowMultipleSelection</excludedCommands>
-            <excludedCommands>Copy</excludedCommands>
-            <excludedCommands>ShowRowRearrangement</excludedCommands>
-            <excludedCommands>MoveUp</excludedCommands>
             <excludedCommands>Add</excludedCommands>
-            <excludedCommands>SearchEverywhere</excludedCommands>
-            <excludedCommands>OutputList</excludedCommands>
+            <excludedCommands>CancelSearch</excludedCommands>
+            <excludedCommands>Change</excludedCommands>
+            <excludedCommands>Copy</excludedCommands>
+            <excludedCommands>CopyToClipboard</excludedCommands>
+            <excludedCommands>Delete</excludedCommands>
+            <excludedCommands>EndEdit</excludedCommands>
             <excludedCommands>Find</excludedCommands>
             <excludedCommands>FindByCurrentValue</excludedCommands>
             <excludedCommands>MoveDown</excludedCommands>
-            <excludedCommands>SortListDesc</excludedCommands>
-            <excludedCommands>Change</excludedCommands>
+            <excludedCommands>MoveUp</excludedCommands>
+            <excludedCommands>OutputList</excludedCommands>
+            <excludedCommands>SearchEverywhere</excludedCommands>
+            <excludedCommands>SelectAll</excludedCommands>
+            <excludedCommands>ShowMultipleSelection</excludedCommands>
+            <excludedCommands>ShowRowRearrangement</excludedCommands>
             <excludedCommands>SortListAsc</excludedCommands>
-            <excludedCommands>Delete</excludedCommands>
-            <excludedCommands>CopyToClipboard</excludedCommands>
-            <excludedCommands>CancelSearch</excludedCommands>
+            <excludedCommands>SortListDesc</excludedCommands>
             <items xsi:type="form:FormField">
               <name>ФайлыНомерСтроки</name>
               <id>35</id>
@@ -364,7 +364,6 @@
                 </userVisible>
                 <autoFill>true</autoFill>
               </contextMenu>
-              <source>ФайлыСтрокаПоиска</source>
               <extInfo xsi:type="form:SearchStringAdditionExtInfo">
                 <autoMaxWidth>true</autoMaxWidth>
               </extInfo>
@@ -403,7 +402,6 @@
                 <autoFill>true</autoFill>
               </contextMenu>
               <type>ViewStatusAddition</type>
-              <source>ФайлыСостояниеПросмотра</source>
               <extInfo xsi:type="form:ViewStatusAdditionExtInfo">
                 <autoMaxWidth>true</autoMaxWidth>
               </extInfo>
@@ -442,7 +440,6 @@
                 <autoFill>true</autoFill>
               </contextMenu>
               <type>SearchControlAddition</type>
-              <source>Файлы</source>
               <extInfo xsi:type="form:SearchControlAdditionExtInfo">
                 <autoMaxWidth>true</autoMaxWidth>
               </extInfo>
@@ -499,6 +496,7 @@
             </rowsPicture>
             <searchStringLocation>None</searchStringLocation>
             <searchControlLocation>None</searchControlLocation>
+            <rowFilter xsi:type="core:UndefinedValue"/>
           </items>
           <items xsi:type="form:FormField">
             <name>Комментарий</name>
@@ -782,10 +780,19 @@
             </userVisible>
             <autoFill>true</autoFill>
           </contextMenu>
+          <type>InputField</type>
           <editMode>EnterOnInput</editMode>
           <showInHeader>true</showInHeader>
           <headerHorizontalAlign>Left</headerHorizontalAlign>
           <showInFooter>true</showInFooter>
+          <extInfo xsi:type="form:InputFieldExtInfo">
+            <autoMaxWidth>true</autoMaxWidth>
+            <autoMaxHeight>true</autoMaxHeight>
+            <wrap>true</wrap>
+            <chooseType>true</chooseType>
+            <typeDomainEnabled>true</typeDomainEnabled>
+            <textEdit>true</textEdit>
+          </extInfo>
         </items>
         <items xsi:type="form:FormField">
           <name>ВидВложения</name>
@@ -1253,12 +1260,12 @@
     <horizontalAlign>Left</horizontalAlign>
   </autoCommandBar>
   <handlers>
-    <event>OnCreateAtServer</event>
-    <name>ПриСозданииНаСервере</name>
-  </handlers>
-  <handlers>
     <event>OnOpen</event>
     <name>ПриОткрытии</name>
+  </handlers>
+  <handlers>
+    <event>OnCreateAtServer</event>
+    <name>ПриСозданииНаСервере</name>
   </handlers>
   <autoUrl>true</autoUrl>
   <group>Vertical</group>

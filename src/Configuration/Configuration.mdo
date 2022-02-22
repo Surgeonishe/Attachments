@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <mdclass:Configuration xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="5c154041-0ba5-4dcb-aac4-98f7da811a70">
-  <name>Вложения</name>
+  <name>ДокументоборотКонтрагентов</name>
   <synonym>
     <key>ru</key>
-    <value>Вложения</value>
+    <value>Документооборот контрагентов</value>
   </synonym>
   <containedObjects classId="9cd510cd-abfc-11d4-9434-004095e12fc7" objectId="19de35f5-fedd-45e8-9bb1-a19f30ff68f6"/>
   <containedObjects classId="9fcd25a0-4822-11d4-9414-008048da11f9" objectId="9a4dc211-18f4-4975-93b8-108bec340a4f"/>

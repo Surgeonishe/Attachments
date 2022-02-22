@@ -201,13 +201,4 @@
     <fillValue xsi:type="core:UndefinedValue"/>
     <mainFilter>true</mainFilter>
   </dimensions>
-  <forms uuid="0c7d780a-e46e-4fc2-8bf5-2fcb23d93885">
-    <name>Просмотр</name>
-    <synonym>
-      <key>ru</key>
-      <value>Просмотр</value>
-    </synonym>
-    <usePurposes>PersonalComputer</usePurposes>
-    <usePurposes>MobileDevice</usePurposes>
-  </forms>
 </mdclass:InformationRegister>
